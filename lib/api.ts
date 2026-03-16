@@ -10,7 +10,7 @@ import type {
 } from "@/types";
 
 const BASE_URL =
-  process.env.NEXT_PUBLIC_API_URL || "https://solum-health-backend.railway.internal";
+  process.env.NEXT_PUBLIC_API_URL || "https://solum-health-backend-production.up.railway.app";
 
 class ApiError extends Error {
   constructor(
